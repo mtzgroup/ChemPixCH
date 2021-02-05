@@ -1,0 +1,31 @@
+{
+    "export_name": "data.json",
+
+    "dir_images_train": "../data/synthetic/size_tests/50K/train_images/", 
+    "dir_images_val": "../data/hand-drawn/hand-drawn-val/val_images/", 
+    "dir_images_test": "../data/hand-drawn/test-set/test_images/", 
+
+    "path_index_train": "../data/synthetic/size_tests/50K/train.index.txt",
+    "path_index_val": "../data/hand-drawn/hand-drawn-val/val.index.txt",
+    "path_index_test": "../data/hand-drawn/test-set/test.index.txt",
+
+    "path_formulas_train":"../data/synthetic/size_tests/50K/train.formulas.txt",
+    "path_formulas_val": "../data/hand-drawn/hand-drawn-val/val.formulas.txt",
+    "path_formulas_test": "../data/hand-drawn/test-set/test.formulas.txt",
+    
+
+    "bucket_train": false,
+    "bucket_val": false,
+    "bucket_test": false,
+
+    "max_iter"          : null,
+    "max_length_formula": 50,
+
+    "buckets": [
+        [240, 100], [320, 80], [400, 80], [400, 100], [480, 80], [480, 100],
+        [560, 80], [560, 100], [640, 80], [640, 100], [720, 80], [720, 100],
+        [720, 120], [720, 200], [800, 100], [800, 320], [1000, 200],
+        [1000, 400], [1200, 200], [1600, 200], [1600, 1600]
+        ] 
+
+}
