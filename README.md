@@ -22,7 +22,7 @@ The Im2Smiles code is modified from the [Im2Latex network](https://github.com/gu
   `$ conda activate im2smiles`  
 
 3. Clone **hand-drawn-hydrocarbon-recognition repo**  
-  `$ git clone https://github.com/hayleyweir/hand-drawn-hydrocarbon-recognition.git`  
+  `$ git clone https://github.com/mtzgroup/ChemPixCH.git`  
 
 4. Install requirements  
   `$ make install`  
