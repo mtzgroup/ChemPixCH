@@ -24,8 +24,8 @@ The Im2Smiles code is modified from the [Im2Latex network](https://github.com/gu
 3. Clone **ChemPixCH repo**  
   `$ git clone https://github.com/mtzgroup/ChemPixCH.git`  
 
-4. Install requirements 
-  `$ cd ChemPixCH`
+4. Install requirements  
+  `$ cd ChemPixCH`  
   `$ make install`  
  
 5. Check environment is installed correctly:  
