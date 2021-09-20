@@ -1,0 +1,25 @@
+name: chempix
+channels:
+  - defaults
+  - rdkit
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - opencv
+  - scikit-learn
+  - rdkit
+  - pip
+  - pip:
+    - tensorflow==1.14.0
+    - nltk==3.4.1
+    - networkx==2.2
+    - distance==0.1.3
+    - scikit-image
+    - pillow
+    - six
+    - fastapi
+    - python-multipart
+    - aiofiles
+    - uvicorn
+    - gunicorn

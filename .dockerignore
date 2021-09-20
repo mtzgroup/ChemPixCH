@@ -1,0 +1,6 @@
+**/__pycache__
+**/.DS_Store
+
+/data
+/im2smiles/configs
+/im2smiles/data_small

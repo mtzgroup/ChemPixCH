@@ -2,7 +2,6 @@ import sys
 import numpy as np
 import tensorflow as tf
 import tensorflow.contrib.layers as layers
-import cv2
 
 from .utils.general import Config, Progbar, minibatches
 from .utils.image import pad_batch_images
